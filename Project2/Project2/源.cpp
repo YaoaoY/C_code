@@ -4,19 +4,19 @@
 int main() {
 
 	int choice=0;
-	scanf("%d\n",&choice);
+	scanf("%d",&choice);
 
 	if (choice == 1) {
-		printf("好运藏在努力里\n");
+		printf("濂借繍钘忓湪鍔姏閲孿n");
 	}else if (choice == 2) {
-		printf("努力让自己变得更优秀然后骄傲的生活\n");
+		printf("鍔姏璁╄嚜宸卞彉寰楁洿浼樼鐒跺悗楠勫偛鐨勭敓娲籠n");
 	}
 	else if (choice == 3) {
-		printf("我们都在奔赴各自不同的人生\n");
+		printf("鎴戜滑閮藉湪濂旇荡鍚勮嚜涓嶅悓鐨勪汉鐢焅n");
 
 	}
 	else {
-		printf("迟到的向日葵也会开花\n");
+		printf("杩熷埌鐨勫悜鏃ヨ懙涔熶細寮�鑺盶n");
 	}
 	return 0;
 }
