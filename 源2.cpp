@@ -9,11 +9,11 @@ int main() {
 	int b = a % 2;
 	if (b == 1)
 	{
-		printf("ÆæÊı\n");
+		printf("å¥‡æ•°\n");
 	}
 	else
 	{
-		printf("Å¼Êı\n");
+		printf("å¶æ•°\n");
 	}
 	return 0;
 	
