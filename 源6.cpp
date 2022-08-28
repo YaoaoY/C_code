@@ -26,13 +26,13 @@ int main()
 		}
 		else
 		{
-			printf("ÕÒµ½ÁË£¬½Ç±êÎª%d\n", mid);
+			printf("æ‰¾åˆ°äº†ï¼Œè§’æ ‡ä¸º%d\n", mid);
 			break;
 		}
     }
 	if(left > right)
 	{
-	printf("ÕÒ²»µ½\n");
+	printf("æ‰¾ä¸åˆ°\n");
 
 	}
 	return 0;
