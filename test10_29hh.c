@@ -3,7 +3,7 @@
 #define N 10
 int main()
 {
-	int arr[N] = {0};//创建一个整形数组
+	int arr[N] = { 0 };//创建一个整形数组
 	int temp = 0;//创建一个变量，作用是在交换元素的过程中起到“空瓶”作用
 	int i = 0;
 	for (i = 0; i < N; i++)//for循环输入10个数字
@@ -13,12 +13,12 @@ int main()
 
 	//循环控制变量i、j
 	int j = 0;
-	int the_last = N-1;
+	int the_last = N - 1;
 
-	for (i = 0; i < N-1; i++)//外层循环：控制趟数
+	for (i = 0; i < N - 1; i++)//外层循环：控制趟数
 	{
 		int flag = 0;//每一趟 中设计一个标记变量
-		for (j = 0; j <the_last ; j++)//这里j的作用有2个，第二个是充当元素下标（所以从0开始的好处）
+		for (j = 0; j < the_last; j++)//这里j的作用有2个，第二个是充当元素下标（所以从0开始的好处）
 		{
 			if (arr[j] > arr[j + 1])//交换
 			{
@@ -37,8 +37,8 @@ int main()
 		}
 
 	}
-	
-	for ( i = 0; i < N ; i++)//输出
+
+	for (i = 0; i < N; i++)//输出
 	{
 		printf("%d\n", arr[i]);
 	}
